@@ -26,6 +26,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
+import com.bdgame.figma.pkselectall.PkSelectAll
 import com.bdgame.figma.ui.BasicsCodelabTheme
 
 class MainActivity : ComponentActivity() {
@@ -38,6 +39,8 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = Color.White
                 ) {
+                    //TODO 替换UI
+                    //PkSelectAll()
                     Greeting("world")
                 }
             }
